@@ -1,0 +1,40 @@
+.sectionFour {
+  padding: 90px 40px;
+  font-size: larger;
+}
+.sectionFourContent {
+  background-color: #5a8cdc;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  padding: 60px 90px;
+}
+.sectionFourLeft {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.sectionFourRight {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.sectionFourLeft > h5,
+.sectionFourLeft > p {
+  padding: 0px;
+  margin: 0px;
+}
+.sectionFourLeft > h5 {
+  font-size: 30px;
+}
+.sectionFourRight > button {
+  width: 160px;
+  height: 60px;
+  border-radius: 10px;
+  border: white solid 3px;
+  font-size: 20px;
+  background-color: #5a8cdc;
+}
+.sectionFive > p {
+  text-align: center;
+}

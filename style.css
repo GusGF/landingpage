@@ -1,3 +1,16 @@
+@import url(sectionOne.css);
+@import url(sectionTwo.css);
+@import url(sectionThree.css);
+@import url(sectionFour.css);
+
 * {
-    font-family: roboto;
+  font-family: roboto;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  /* @@@@@@@@@@@@@@ set a max width for your site @@@@@@@@@@@@@ */
+  max-width: 1200px;
+  margin: auto;
 }

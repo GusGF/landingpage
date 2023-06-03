@@ -1,0 +1,42 @@
+.sectionOne {
+  background-color: #1f2937;
+}
+.sectionOneContent {
+  /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@ using viewport sizing was a bad idea here */
+  width: 75%;
+  margin: auto;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.hdrLinks {
+  display: flex;
+}
+h5 {
+  padding-left: 20px;
+}
+.heroSection {
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.heroSectionLeft {
+  flex: 45%;
+  padding-right: 70px;
+}
+.heroSectionRight {
+  flex: 45%;
+}
+img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+button {
+  border-radius: 15%;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+}

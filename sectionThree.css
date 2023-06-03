@@ -1,0 +1,13 @@
+.sectionThree {
+  background-color: rgb(240, 240, 240);
+  padding: 70px 15%;
+}
+.quote {
+  font-style: italic;
+  font-size: larger;
+  font-weight: 900;
+}
+.credit {
+  font-size: larger;
+  text-align: end;
+}
